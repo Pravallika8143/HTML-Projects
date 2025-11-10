@@ -5,20 +5,52 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Weather App</title>
 </head>
-<body>
+<body background="https://images.unsplash.com/photo-1501973801540-537f08ccae7b?auto=format&fit=crop&w=1600&q=80"
+      style="font-family: 'Verdana'; color: #ffffff; margin:0; padding:0;">
 
-  <h2>Weather App 🌦</h2>
+  <center>
+    <table width="90%" cellpadding="20" cellspacing="0" bgcolor="rgba(0, 0, 0, 0.6)" 
+           style="margin-top: 40px; border-radius: 15px; max-width: 600px;">
+      <tr>
+        <td align="center">
+          <h1>🌦 Weather App</h1>
+          <p>Get the current weather information for your city</p>
+        </td>
+      </tr>
 
-  <form>
-    <label for="cityInput">Enter City Name:</label><br>
-    <input type="text" id="cityInput" name="cityInput" placeholder="City name"><br><br>
-    <input type="submit" value="Get Weather">
-  </form>
+      <tr>
+        <td align="center">
+          <form>
+            <label for="cityInput"><b>Enter City Name:</b></label><br><br>
+            <input type="text" id="cityInput" name="cityInput" placeholder="City name" 
+                   style="padding:10px; width:80%; max-width:300px; border:none; border-radius:5px;"><br><br>
+            <input type="submit" value="Get Weather" 
+                   style="padding:10px 25px; background-color:#00bcd4; border:none; color:white; border-radius:5px; cursor:pointer;">
+          </form>
+        </td>
+      </tr>
 
-  <h3>Weather Details</h3>
-  <p>City: __________</p>
-  <p>Temperature: __________</p>
-  <p>Condition: __________</p>
+      <tr>
+        <td align="center">
+          <h2>Weather Details</h2>
+          <table width="90%" cellpadding="10" cellspacing="0" bgcolor="#ffffff" 
+                 style="color:#000; border-radius:10px; max-width:400px;">
+            <tr><td><b>City:</b> __________</td></tr>
+            <tr><td><b>Temperature:</b> __________</td></tr>
+            <tr><td><b>Condition:</b> __________</td></tr>
+            <tr><td><b>Humidity:</b> __________</td></tr>
+            <tr><td><b>Wind Speed:</b> __________</td></tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center">
+          <p style="color:#ddd; font-size: 0.9em;">© 2025 Weather App | Designed in Pure HTML</p>
+        </td>
+      </tr>
+    </table>
+  </center>
 
 </body>
 </html>
