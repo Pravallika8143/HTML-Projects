@@ -5,157 +5,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel and Tourism Website</title>
 </head>
-<body><!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Travel and Tourism Website</title>
-</head>
-<body>
+<body style="font-family: Arial; margin:0; padding:0; background-color:#f0f8ff; color:#333;">
 
-  <nav>
-    <a href="#home">Home</a> |
-    <a href="#about">About</a> |
-    <a href="#destinations">Destinations</a> |
-    <a href="#contact">Contact</a>
+  <nav style="background-color:#008CBA; color:white; padding:15px; text-align:center;">
+    <a href="#home" style="color:white; text-decoration:none; margin:0 15px;">Home</a>
+    <a href="#about" style="color:white; text-decoration:none; margin:0 15px;">About</a>
+    <a href="#destinations" style="color:white; text-decoration:none; margin:0 15px;">Destinations</a>
+    <a href="#contact" style="color:white; text-decoration:none; margin:0 15px;">Contact</a>
   </nav>
 
-  <header id="home">
-    <h1>Welcome to Dream Travels</h1>
+  <header id="home" style="text-align:center; padding:50px 20px; background-color:#e0f7fa;">
+    <h1>Welcome to Dream Travels ✈️</h1>
     <p>Explore amazing places around the world with us!</p>
   </header>
 
-  <section id="about">
+  <section id="about" style="padding:40px 20px; text-align:center;">
     <h2>About Us</h2>
-    <p>
+    <p style="max-width:600px; margin:auto;">
       Dream Travels is your trusted travel partner.  
       We help you discover new destinations, cultures, and experiences.  
       Our goal is to make your journeys memorable and exciting.
     </p>
   </section>
 
-  <section id="destinations">
+  <section id="destinations" style="background-color:#fafafa; padding:40px 20px; text-align:center;">
     <h2>Popular Destinations</h2>
 
-    <article>
+    <article style="margin:20px auto; max-width:500px;">
       <h3>Paris, France</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Eiffel_tower-Paris.jpg" alt="Paris Images" width="300"/>
-      <p>
-        The city of love and lights! Visit famous landmarks, enjoy delicious cuisine, and explore the art museums.
-      </p>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Eiffel_tower-Paris.jpg" 
+           alt="Paris Image" width="300" style="border-radius:10px;">
+      <p>The city of love and lights! Visit famous landmarks, enjoy delicious cuisine, and explore the art museums.</p>
     </article>
 
-    <article>
+    <article style="margin:20px auto; max-width:500px;">
       <h3>Maldives</h3>
-      <img src="https://t3.ftcdn.net/jpg/01/11/28/88/360_F_111288833_YIh3Br4p3lzSlFjDutcVIjJMj9EkWlKv.jpg" alt="Beach view of Maldives" width="300">
-      <p>
-        Enjoy crystal-clear waters and white sandy beaches. Perfect for relaxation and water adventures.
-      </p>
+      <img src="https://t3.ftcdn.net/jpg/01/11/28/88/360_F_111288833_YIh3Br4p3lzSlFjDutcVIjJMj9EkWlKv.jpg" 
+           alt="Beach view of Maldives" width="300" style="border-radius:10px;">
+      <p>Enjoy crystal-clear waters and white sandy beaches. Perfect for relaxation and water adventures.</p>
     </article>
 
-    <article>
+    <article style="margin:20px auto; max-width:500px;">
       <h3>Tokyo, Japan</h3>
-      <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9reW98ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000" alt="City view of Tokyo" width="300">
-      <p>
-        Experience the mix of modern technology and traditional Japanese culture in this beautiful city.
-      </p>
+      <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?ixlib=rb-4.1.0&fm=jpg&q=60&w=600" 
+           alt="City view of Tokyo" width="300" style="border-radius:10px;">
+      <p>Experience the mix of modern technology and traditional Japanese culture in this beautiful city.</p>
     </article>
   </section>
 
-  <section id="contact">
+  <section id="contact" style="padding:40px 20px; text-align:center;">
     <h2>Contact Us</h2>
     <p>If you have questions or want to book your next trip, contact us using the form below:</p>
 
-    <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name"><br><br>
+    <form style="background-color:#fff; display:inline-block; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);">
+      <label for="name"><b>Name:</b></label><br>
+      <input type="text" id="name" name="name" style="padding:8px; width:250px; border:1px solid #ccc; border-radius:5px;"><br><br>
 
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email"><br><br>
+      <label for="email"><b>Email:</b></label><br>
+      <input type="email" id="email" name="email" style="padding:8px; width:250px; border:1px solid #ccc; border-radius:5px;"><br><br>
 
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+      <label for="message"><b>Message:</b></label><br>
+      <textarea id="message" name="message" rows="4" cols="30" style="padding:8px; border:1px solid #ccc; border-radius:5px;"></textarea><br><br>
 
-      <input type="submit" value="Send Message">
+      <input type="submit" value="Send Message" 
+             style="padding:10px 20px; background-color:#008CBA; color:white; border:none; border-radius:5px; cursor:pointer;">
     </form>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Dream Travels. All rights reserved.</p>
-  </footer>
-
-</body>
-</html>
-  <nav>
-    <a href="#home">Home</a> |
-    <a href="#about">About</a> |
-    <a href="#destinations">Destinations</a> |
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <header id="home">
-    <h1>Welcome to Dream Travels</h1>
-    <p>Explore amazing places around the world with us!</p>
-  </header>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>
-      Dream Travels is your trusted travel partner.  
-      We help you discover new destinations, cultures, and experiences.  
-      Our goal is to make your journeys memorable and exciting.
-    </p>
-  </section>
-
-  <section id="destinations">
-    <h2>Popular Destinations</h2>
-
-    <article>
-      <h3>Paris, France</h3>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Eiffel_tower-Paris.jpg" alt="Paris Images" width="300"/>
-      <p>
-        The city of love and lights! Visit famous landmarks, enjoy delicious cuisine, and explore the art museums.
-      </p>
-    </article>
-
-    <article>
-      <h3>Maldives</h3>
-      <img src="https://t3.ftcdn.net/jpg/01/11/28/88/360_F_111288833_YIh3Br4p3lzSlFjDutcVIjJMj9EkWlKv.jpg" alt="Beach view of Maldives" width="300">
-      <p>
-        Enjoy crystal-clear waters and white sandy beaches. Perfect for relaxation and water adventures.
-      </p>
-    </article>
-
-    <article>
-      <h3>Tokyo, Japan</h3>
-      <img src="https://plus.unsplash.com/premium_photo-1661914240950-b0124f20a5c1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dG9reW98ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000" alt="City view of Tokyo" width="300">
-      <p>
-        Experience the mix of modern technology and traditional Japanese culture in this beautiful city.
-      </p>
-    </article>
-  </section>
-
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>If you have questions or want to book your next trip, contact us using the form below:</p>
-
-    <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name"><br><br>
-
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email"><br><br>
-
-      <label for="message">Message:</label><br>
-      <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
-
-      <input type="submit" value="Send Message">
-    </form>
-  </section>
-
-  <footer>
+  <footer style="background-color:#008CBA; color:white; text-align:center; padding:15px;">
     <p>&copy; 2025 Dream Travels. All rights reserved.</p>
   </footer>
 
